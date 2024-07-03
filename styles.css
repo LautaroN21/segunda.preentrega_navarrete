@@ -1,9 +1,14 @@
-
-#navbarSupportedContent {
-    
-      margin-left: 35%; 
-
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
 }
+#navbarSupportedContent {
+
+      margin-left: 35%; 
+}
+.container-fluid a {
+    font-size: 1.3em;
+}
+
 .parrafo_container {
     display: flex;
     justify-content: center;
@@ -17,7 +22,7 @@
     font-size: 3em;
     font-weight: bolder;
     margin-top: 50px;
-    border-left: 8px solid rgb(167, 91, 197);
+    border-left: 8px solid rgb(236, 232, 238);
     width: 900px;
     height: 300px;
     letter-spacing: 5px;
@@ -26,8 +31,8 @@
 
 }
 .parrafo_uno:hover {
-    border-left: 8px solid rgb(167, 91, 197);
-    background-color: #faf2e2;
+    border-left: 8px solid rgb(236, 232, 238);
+    background-color: #3bb3c9;
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px ;
 }
@@ -36,7 +41,7 @@
     font-size: 3em;
     font-weight: bolder;
     margin-top: 50px;
-    border-right: 8px solid rgb(167, 91, 197);
+    border-right: 8px solid rgb(236, 232, 238);
     width: 900px;
     height: 300px;
     letter-spacing: 5px;
@@ -45,7 +50,7 @@
 
 }
 .parrafo_dos:hover {
-    border-right-width: 8px solid rgb(167, 91, 197);
+    border-right-width: 8px solid rgb(236, 232, 238);
     background-color: #faf2e2;
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px ;
@@ -55,7 +60,7 @@
     font-size: 3em;
     font-weight: bolder;
     margin-top: 50px;
-    border-left: 8px solid rgb(167, 91, 197);
+    border-left: 8px solid rgb(236, 232, 238);
     width: 900px;
     height: 300px;
     letter-spacing: 5px;
@@ -64,8 +69,8 @@
 
 }
 .parrafo_tres:hover {
-    border-left: 8px solid rgb(167, 91, 197);
-    background-color: #faf2e2;
+    border-left: 8px solid rgb(236, 232, 238);
+    background-color: #3bb3c9;
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px ;
 }
