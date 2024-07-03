@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(90deg, rgb(38, 31, 170) 0%, rgb(25, 25, 207) 35%, rgb(91, 211, 235) 100%) !important;
 }
+/*---NavBar---*/
 #navbarSupportedContent {
 
       margin-left: 35%; 
@@ -8,7 +9,7 @@ body {
 .container-fluid a {
     font-size: 1.3em;
 }
-
+/*---Parrafos---*/
 .parrafo_container {
     display: flex;
     justify-content: center;
@@ -73,7 +74,30 @@ body {
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px ;
 }
+/*---Footer---*/
+footer {
+    background-color: transparent;
+    padding: 35px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    border-top: 2px solid #fff;
+    margin-top: 70px;
+}
+.footer_logo {
+    display:  flexbox;
+}
+.logo_footer {
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 10px;
+}
+.logo_footer:hover {
+    opacity: .6;
+}
 
+/*---Media Parrafos---*/
 @media screen and (max-width:500px){
 
     .parrafo_uno {
@@ -112,5 +136,14 @@ body {
         letter-spacing: 3px;
         padding: 10px;
         text-align: center;
+    }
+    footer {
+        background-color: transparent;
+        padding: 10px;
+        text-align: center;
+        font-size: .9em;
+        font-weight: 800;
+        border-top: 2px solid #fff;
+        margin-top: 25px;
     }
 }
