@@ -1,3 +1,10 @@
+.parrafo_hover, .parrafo_tres:hover, .parrafo_dos:hover, .parrafo_uno:hover {
+  border-left: 8px solid rgb(236, 232, 238);
+  background-color: #3bb3c9;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 body {
   background: linear-gradient(90deg, rgb(38, 31, 170) 0%, rgb(25, 25, 207) 35%, rgb(91, 211, 235) 100%) !important;
 }
@@ -33,13 +40,6 @@ body {
   text-align: center;
 }
 
-.parrafo_uno:hover {
-  border-left: 8px solid rgb(236, 232, 238);
-  background-color: #3bb3c9;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
 .parrafo_dos {
   margin-left: 280px;
   font-size: 3em;
@@ -51,13 +51,6 @@ body {
   letter-spacing: 5px;
   padding: 20px;
   text-align: center;
-}
-
-.parrafo_dos:hover {
-  border-right-width: 8px solid rgb(236, 232, 238);
-  background-color: #3bb3c9;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .parrafo_tres {
@@ -72,14 +65,18 @@ body {
   padding: 20px;
   text-align: center;
 }
-
-.parrafo_tres:hover {
-  border-left: 8px solid rgb(236, 232, 238);
-  background-color: #3bb3c9;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
+.parrafo_tres_sobremi {
+    margin-left: 50px;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-left: 8px solid rgb(236, 232, 238);
+    width: 900px;
+    height: 300px;
+    letter-spacing: 5px;
+    padding: 20px;
+    text-align: center;
+  }
 /*---Footer---*/
 footer {
   background-color: transparent;
@@ -113,8 +110,8 @@ footer {
     font-weight: bolder;
     margin-top: 10px;
     border-left: 8px solid rgb(236, 232, 238);
-    width: 310px;
     margin-left: 10px;
+    width: 310px;
     height: 100px;
     letter-spacing: 3px;
     padding: 10px;
@@ -137,8 +134,20 @@ footer {
     font-weight: bolder;
     margin-top: 10px;
     border-left: 8px solid rgb(236, 232, 238);
-    width: 310px;
     margin-left: 10px;
+    width: 310px;
+    height: 100px;
+    letter-spacing: 3px;
+    padding: 10px;
+    text-align: center;
+  }
+  .parrafo_tres_sobremi {
+    font-size: 0.9em;
+    font-weight: bolder;
+    margin-top: 250px;
+    border-left: 8px solid rgb(236, 232, 238);
+    margin-left: 50px;
+    width: 310px;
     height: 100px;
     letter-spacing: 3px;
     padding: 10px;

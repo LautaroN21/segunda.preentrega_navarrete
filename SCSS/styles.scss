@@ -1,6 +1,16 @@
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 $color_gradient: linear-gradient(90deg, rgb(38, 31, 170) 0%, rgb(25, 25, 207) 35%, rgb(91, 211, 235) 100%) !important;
 
-
+.parrafo_hover {
+    border-left: 8px solid rgb(236, 232, 238);
+    background-color: #3bb3c9;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+}
 body {
     background: $color_gradient;
 }
@@ -17,8 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%,100%);
 }
 .parrafo_uno {
     margin-left: 50px;
@@ -26,17 +35,13 @@ body {
     font-weight: bolder;
     margin-top: 50px;
     border-left: 8px solid rgb(236, 232, 238);
-    width: 900px;
-    height: 300px;
+    @include sizes(900px,300px);
     letter-spacing: 5px;
     padding: 20px;
     text-align: center;
 }
 .parrafo_uno:hover {
-    border-left: 8px solid rgb(236, 232, 238);
-    background-color: #3bb3c9;
-    border-top-right-radius: 15px ;
-    border-bottom-right-radius: 15px ;
+    @extend .parrafo_hover;
 }
 
 .parrafo_dos {
@@ -45,18 +50,14 @@ body {
     font-weight: bolder;
     margin-top: 50px;
     border-right: 8px solid rgb(236, 232, 238);
-    width: 900px;
-    height: 300px;
+    @include sizes(900px,300px);
     letter-spacing: 5px;
     padding: 20px;
     text-align: center;
 
 }
 .parrafo_dos:hover {
-    border-right-width: 8px solid rgb(236, 232, 238);
-    background-color: #3bb3c9;
-    border-top-left-radius: 15px ;
-    border-bottom-left-radius: 15px ;
+    @extend .parrafo_hover;
 }
 .parrafo_tres {
     margin-left: 50px;
@@ -64,18 +65,14 @@ body {
     font-weight: bolder;
     margin-top: 50px;
     border-left: 8px solid rgb(236, 232, 238);
-    width: 900px;
-    height: 300px;
+    @include sizes(900px,300px);
     letter-spacing: 5px;
     padding: 20px;
     text-align: center;
 
 }
 .parrafo_tres:hover {
-    border-left: 8px solid rgb(236, 232, 238);
-    background-color: #3bb3c9;
-    border-top-right-radius: 15px ;
-    border-bottom-right-radius: 15px ;
+    @extend .parrafo_hover;
 }
 /*---Footer---*/
 footer {
@@ -104,13 +101,12 @@ footer {
 @media screen and (max-width:500px){
 
     .parrafo_uno {
-        font-size: .9em;
+        font-size: 0.9em;
         font-weight: bolder;
         margin-top: 10px;
         border-left: 8px solid rgb(236, 232, 238);
-        width: 310px;
         margin-left: 10px;
-        height: 100px;
+        @include sizes(310px,100px);
         letter-spacing: 3px;
         padding: 10px;
         text-align: center;
@@ -121,8 +117,7 @@ footer {
         margin-top: 10px;
         margin-left: 112px;
         border-right: 8px solid rgb(236, 232, 238);
-        width: 310px;
-        height: 100px;
+        @include sizes(310px,100px);
         letter-spacing: 3px;
         padding: 10px;
         text-align: center;
@@ -133,9 +128,19 @@ footer {
         font-weight: bolder;
         margin-top: 10px;
         border-left: 8px solid rgb(236, 232, 238);
-        width: 310px;
         margin-left: 10px;
-        height: 100px;
+        @include sizes(310px,100px);
+        letter-spacing: 3px;
+        padding: 10px;
+        text-align: center;
+    }
+    .parrafo_tres_sobremi {
+        font-size: .9em;
+        font-weight: bolder;
+        margin-top: 10px;
+        border-left: 8px solid rgb(236, 232, 238);
+        margin-left: 50px;
+        @include sizes(310px,100px);
         letter-spacing: 3px;
         padding: 10px;
         text-align: center;
