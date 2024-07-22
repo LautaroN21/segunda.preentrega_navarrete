@@ -65,18 +65,7 @@ body {
   padding: 20px;
   text-align: center;
 }
-.parrafo_tres_sobremi {
-    margin-left: 50px;
-    font-size: 3em;
-    font-weight: bolder;
-    margin-top: 50px;
-    border-left: 8px solid rgb(236, 232, 238);
-    width: 900px;
-    height: 300px;
-    letter-spacing: 5px;
-    padding: 20px;
-    text-align: center;
-  }
+
 /*---Footer---*/
 footer {
   background-color: transparent;
@@ -141,17 +130,80 @@ footer {
     padding: 10px;
     text-align: center;
   }
-  .parrafo_tres_sobremi {
-    font-size: 0.9em;
-    font-weight: bolder;
-    margin-top: 250px;
-    border-left: 8px solid rgb(236, 232, 238);
-    margin-left: 50px;
-    width: 310px;
-    height: 100px;
-    letter-spacing: 3px;
-    padding: 10px;
+  /*Formulario contacto*/
+  form {
+    background-color: transparent;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 25px rgba(20, 19, 19, 0.6);
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+  }
+  h2 {
     text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    border-radius: 2px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2666666667);
+    background-color: transparent;
+    color: #eee;
+    font-family: "Montserrat", sans-serif;
+  }
+  option {
+    background-color: #222;
+  }
+  textarea {
+    resize: none;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+  }
+  .form-input {
+    padding: 10px 20px;
+  }
+  label {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .check-box {
+    width: auto;
+    height: 10px;
+  }
+  fieldset {
+    border-radius: 5px;
+    border: 1px solid #666;
+    margin: 20px;
+  }
+  .btn-container {
+    text-align: center;
+  }
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #386ba1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  button:hover {
+    background-color: #1a2e44;
   }
   footer {
     background-color: transparent;
